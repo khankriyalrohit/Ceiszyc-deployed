@@ -1,0 +1,33 @@
+.contactContainer {
+    background-color: hsl(219, 48%, 8%);
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    display: grid;
+    place-items: center;
+    position: fixed;
+  }
+  
+  .mailBtn {
+    border-radius: 15px;
+    text-decoration: none;
+    transform: translateX(-100vw);
+    animation: mailBtnAnimation 2s forwards;
+    
+  }
+
+
+  
+  .mailBtn > button {
+    text-decoration: none;
+    font: 200 2vmax "Roboto";
+    cursor: pointer;
+    padding: 2vmax;
+    color: aqua;
+  }
+  
+  @keyframes mailBtnAnimation {
+    to {
+      transform: translateX(0);
+    }
+  }

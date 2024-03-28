@@ -1,0 +1,72 @@
+.teamcss{
+    background-color: hsl(219, 48%, 8%);
+}
+
+.teamHeading{
+    color: white;
+    text-align: center;
+    padding-top: 3vmax;
+    font-size: xx-large;
+    margin-bottom: 3vw;;
+}
+
+.message{
+    border: double aqua 3px;
+    color: white;
+    width: 65vw;
+    margin: auto;
+    margin-bottom: 3vw;
+    border-radius: 2vw;
+}
+
+.message:hover {
+background-color: rgba(0, 255, 255, 0.246);
+transform: scale(1.1);
+transition-duration: 1s;
+}
+
+.message > h2{
+ text-align: center;
+ color: aqua;
+}
+.message > p{
+    text-align: justify;
+    font-size: 1.1vw;
+    padding: 3vw;
+}
+.myteam{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80vw;
+    margin: 0px 165px;
+}
+.teamCard{
+    border: solid aqua 4px;
+    margin-right: 2vw;
+    margin-bottom: 3vw;
+    width: 17vw;
+}
+.teamCard:hover{
+    background-color: rgba(0, 255, 255, 0.235);
+    transform: scale(0.9);
+    transition-duration: 1s;
+}
+.teamCard > img{
+    width: 16.6vw;
+    height: 18vw;
+}
+.teamCard > h4{
+    color: aqua;
+    font-size: 1.3vw;
+}
+.teamCard > p{
+    margin-top: 5px;
+    color: white;
+    font-size: 20px;
+}
+.teamCard > p:last-child {
+    color:white;
+    text-align: end;
+}
+

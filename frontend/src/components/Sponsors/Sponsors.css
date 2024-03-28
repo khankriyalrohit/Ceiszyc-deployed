@@ -1,0 +1,60 @@
+.sponsorscss{
+    background-color: hsl(219, 48%, 8%);
+    
+}
+
+.sponsorsHeading{
+    color: white;
+    text-align: center;
+    padding-top: 3vmax;
+    font-size: xx-large;
+    margin-bottom: 3vw;;
+}
+
+.sponsorscss{
+    width: 77vw;
+    width: 100%;
+    justify-content: center;
+}
+.sponsorCardd{
+    margin-right: 3vmax;
+    margin-top: 3vmax;
+    text-decoration: none;
+    color: aqua;
+    font-size: 2vw;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.sponsorCard{
+    margin-top:3vw;
+    width: 70vw;
+    justify-content: center;
+    border: solid aqua 4px;
+    justify-content: center;
+    margin: auto;
+    background-color: rgba(40, 43, 46, 0.232);
+    border-radius: 2vw;
+}
+.sponsorCard:hover{
+   transform: scale(1.1);
+   transition-duration: 2s;
+}
+
+.sponsorCard > h4{
+   margin-top: 2vw;
+   margin-bottom: 1.7vw;
+}
+.sponsorCard > p{
+  font-size: x-large;
+  text-align: end;
+  margin-top: 2vw;
+   margin-bottom: 1.7vw;
+   padding-right: 1vw;
+   color: white;
+
+}
+.sponsorCard > img{
+   width: 20vw;
+   border: solid rgb(222, 19, 228) 3px;
+}

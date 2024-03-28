@@ -1,0 +1,70 @@
+.containerhemlo{
+    background-color: hsl(219, 48%, 8%);
+    border-top: solid hsl(219, 48%, 8%) 4px;
+}
+
+.innerdiv{
+    /* border: solid red 4px; */
+    display: flex;
+    flex-direction: row;
+    color: white;
+    width: 80vw;
+    justify-content: center;
+    margin: auto;
+    margin-top: 7vw;
+}
+.imagecontainer{
+    /* border: solid rgb(229, 204, 16) 4px; */
+    width: 50vw;
+    height: 40vw;
+    margin-top: 4vw;
+}
+.imagecontainer > img{
+    width: 30vw;
+    height: 30vw;
+}
+.detailscontainer{
+    /* border: solid blue 4px; */
+
+}
+.detailscontainer >h3{
+text-align: center;
+font-size: 2vw;
+color: aqua;
+margin-top: 1vw;
+}
+.detailscontainer >h5{
+    margin-top: 1vw;
+    text-align: end;
+    padding-right: 4vw;
+    color: rgb(248, 12, 225);
+    font-size: 1vw;
+}
+.detailscontainer >p{
+    text-align: justify;
+    margin: 4vw;
+    font-size: larger;
+}
+.detailscontainer >h6{
+    font-size: larger;
+    text-align: end;
+    padding-right: 4vw;
+    color: aqua;
+}
+.buttone{
+        font-family: 'Times New Roman', Times, serif;
+        background-color: aqua;
+        color: white;
+        width: 7vw;
+        height: 2.5vw;
+        margin-top: 3vw;
+        margin-left: 20vw;
+}
+button:hover{
+    background-color:white ;
+    border: solid aqua 4px;
+    transform: scale(1.2);
+    transition-duration: 1s;
+    color: black;
+}
+

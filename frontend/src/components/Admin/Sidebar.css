@@ -1,0 +1,25 @@
+.sidebar{
+    margin-top: 2vw;
+    display: flex;
+    flex-direction: row;
+}
+.sidebar > a > p {
+    color: white;
+    font-size: 1.1vw;
+}
+.sidebar > a > p:hover {
+    color: aqua;
+}
+.sidebar > a:first-child{
+   margin-left: 10vw;
+}
+.sidebar a {
+    color: white;
+    margin-left: 3vw;
+    margin-top: 1vw;
+    font-size: 2vw;
+    text-decoration: none;
+}
+.sidebar a:hover {
+    color: aqua;
+}

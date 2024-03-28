@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    
+}
+
+.banner{
+    background-image:url("https://tcfblogthecollegefever.files.wordpress.com/2017/11/1481967031-clg-fest-sec-bnr1.jpg?w=1904");
+    background-position: center;
+    height:100vmin;
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   color: white;
+}
+
+.banner > h1{
+    font : 600 2.5vmax "Roboto";
+    margin: 5vmax;
+    color : hsl(219, 48%, 8%)
+}
+
+.banner > p{
+    font : 300 1.3vmax "Lucida Sans";
+    color : hsl(219, 48%, 8%)
+}
+
+.banner > a > button {
+    margin-bottom: 5vmax;
+    cursor: pointer;
+    background-color: aqua;
+    border: 1px solid aqua;
+    border-radius: 0;
+    padding: 1vmax;
+    transition: all 0.5s;
+    width: 9vmax;
+    font: 500 1vmax "Roboto";
+  }
+
+  .banner > a > button:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+  }
+
+  .banner::after {
+    content: "";
+    width: 100vw;
+    height: 100vmin;
+    background-color: hsl(219, 48%, 8%);
+    position: absolute;
+    top: 0%;
+    left: 0;
+    clip-path: polygon(100% 68%, 0 100%, 100% 100%);
+    max-width: 100%;
+  }
+
+  .homeheading{
+    width: 100vw;
+    text-align: center;
+    background-color: hsl(219, 48%, 8%);
+    color: white;
+  }
+  .LowerBody{
+    background-color: hsl(219, 48%, 8%);
+    margin-bottom: -10vmax;
+    padding-bottom: 10vmax;
+  }
+  .container{
+    margin: 6vmax;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(219, 48%, 8%);
+  }
+  .container > :nth-child(2){
+    flex-direction: row-reverse;
+  }
+  .tiles{
+    margin-top: 4vmax;
+    border-right: solid aqua 5px;
+    border-bottom: solid aqua 5px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+  }
+  .imgcontainer{
+    /* border: solid red 5px; */
+    width: 20vw;
+    height: 17vw;
+  }
+  .imgcontainer > img {
+      width: inherit;
+      height: inherit;
+  }
+  .imgcontainer > img:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+  }
+  .infocontainer{
+    margin-left: 1vmax;
+    /* border: solid red 5px; */
+    width: 55vw;
+    height: 17vw;
+  }
+  .infocontainer > h1{
+     text-align: center;
+    margin: 1vmax;
+    color: aqua;
+  }
+  .infocontainer > h2{
+    color: aqua;
+    margin: 1vmax;
+
+  }
+  .infocontainer > h4{
+    text-align: end;
+    color: white;
+    margin: 1vmax;
+
+  }
+  .infocontainer > h5{
+    text-align: end;
+    color: white;
+    margin: 1vmax;
+
+  }
+  .infocontainer > p{
+
+    color: white;
+    margin: 1vmax;
+
+  }
+
+  .LastSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10vmax;
+    margin-top: 6vmax;
+    background-color: hsl(219, 48%, 8%);
+  }
+
+  .celebrity{
+    /* border: solid red 4px; */
+    width: 16vw;
+    height: 22vw;
+    background-color: rgba(97, 225, 232, 0.383);
+    margin-right: 3vmax;
+    margin-top: 5vmax;
+  }
+  .celebrity:hover{
+    transform: scale(1.1);
+    transition-duration: 2s;
+  }
+
+  .celebrityimg{
+  border: solid aqua 4px;
+  height: 19vw;
+  width: 15.5vw;
+  }
+  .celebrityimg > img {
+    width: inherit;
+    height: inherit;
+  }
+  .celebrityabout{
+    border: solid aqua 4px;
+    color: white;
+  }
+  .celebrityabout > h3 {
+    color: aqua;
+  }

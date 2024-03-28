@@ -1,0 +1,36 @@
+.dashbaordcss{
+    background-color: hsl(219, 48%, 8%);
+    border: solid hsl(219, 48%, 8%) 4px;;
+}
+.dashcontent{
+    margin-left: 6vw;
+    margin-right: 6vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.dash{
+    background-color: aqua;
+    color: black;
+    width: 20vw;
+    height : 20vw;
+    margin-left: 3vw;
+    margin-top: 5vw;
+    clip-path: circle(37.9% at 50% 50%);
+}
+.dash:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.2);
+    transition-duration: 1s;
+
+}
+.dash > h3 {
+    text-align: center;
+    font-size: 2vw;
+    margin-top: 7vw;
+}
+.dash > h4 {
+  font-size: 3vw;
+  text-align: center;
+}

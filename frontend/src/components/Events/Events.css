@@ -1,0 +1,86 @@
+.eventscss{
+    background-color: hsl(219, 48%, 8%);
+}
+.productCard{
+    border: double aqua 5px;
+    width: 12vw;
+    height: 16.2vw;
+    background-color: hsla(0, 0%, 98%, 0.196);
+}
+.productCard > img{
+width: 11.5vw;
+border-top: solid black 4px;
+border-right: solid black 4px;
+border-bottom: solid black 4px;
+height: 11vw;
+}
+.productCard > p{
+  text-decoration: none;
+  color: aqua;
+  font-size: x-large;
+  text-align: center;
+  border-bottom: solid rgb(249, 14, 222) 2px;
+}
+.productCard > span{
+  color: white;
+  font-size: large;
+}
+.productCard > h4{
+    color: white;
+    font-size: large;
+   
+  }
+
+.products{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     /* border: solid red 4px; */
+     width: 80vw;
+     margin-left: 15vw;
+}
+
+.productCardd{
+    margin-right: 3vmax;
+    margin-top: 3vmax;
+    text-decoration: none;
+}
+.productCardd:hover{
+    transform: scale(1.1);
+    transition-duration : 2s;
+}
+.productsHeading{
+    color: white;
+    text-align: center;
+    padding-top: 3vmax;
+    font-size: xx-large;
+
+}
+.filterBox {
+  color: aqua;
+  width: 10vmax;
+  position: absolute;
+  top: 14vmax;
+  left: 4vmax;
+  font-size: larger;
+}
+
+.categoryBox {
+  padding: 0%;
+}
+
+.category-link {
+  list-style: none;
+  color: white;
+  font: 400 1.2vmax "Roboto";
+  margin: 0.4vmax;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.category-link:hover {
+  color: rgb(29, 225, 208);
+}
+
+.filterBox > fieldset {
+  border: 1px solid rgba(0, 0, 0, 0.329);
+}

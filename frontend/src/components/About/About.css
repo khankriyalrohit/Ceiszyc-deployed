@@ -1,0 +1,51 @@
+.aboutcss{
+    background-color: hsl(219, 48%, 8%);
+    
+}
+.heading{
+    padding-top: 2vw;
+    font-size: xx-large;
+    color: aqua;
+    text-align: center;
+
+}
+.carousel{
+    width: 60vw;
+    padding: 5vw;
+    /* border:solid blue 5px; */
+    margin: auto;
+    margin-top: 1vw;
+}
+
+.CarouselImage{
+    height: 25vw;
+    width: 50vw;
+    margin: auto;
+}
+.content{
+    /* border: solid aqua 3px; */
+    width: 60vw;
+    margin: auto;
+    height: 20vw;
+}
+.content > h2{
+    color: aqua;
+    text-align: center;
+    margin-bottom: 3vw;
+}
+.content > p{
+    color: white;
+    margin-top: 1vw;
+    font-size: larger;
+}
+.buttonhai{
+    color: black;
+    background-color: aqua;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    width: 9vw;
+    height: 3vw;
+    margin-top: 3vw;
+   margin-left: 25vw;
+
+}
