@@ -1,8 +1,8 @@
 import express from "express";
 import dotenv from "dotenv"
 import cors from 'cors'
-// import path from "path"
-import path from 'path';
+import { fileURLToPath } from 'url';
+import { dirname, join } from 'path';
 import bodyParser from "body-parser";
 import cookieParser from "cookie-parser";
 import fileUpload from "express-fileupload";
@@ -15,6 +15,9 @@ app.use(bodyParser.urlencoded({extended : true}));
 app.use(cookieParser());
 app.use(fileUpload())
 app.use(cors());
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 
 //Config
@@ -38,14 +41,12 @@ app.use("/api/v1",sponsorRouter);
 app.use("/api/v1",guestRouter);
 app.use("/api/v1",participationRouter);
 
+app.use(express.static(join(__dirname, '../frontend/build')));
 
-// app.use(express.static(path.join(__dirname, '../frontend/build')));
-
-// app.get('*', (req, res) => {
-//     res.sendFile(path.join(__dirname, '../frontend/build', 'index.html'));
-//   });
+app.get('*', (req, res) => {
+    res.sendFile(join(__dirname, '../frontend/build', 'index.html'));
+});
   
-
 
 app.use(errorMiddleware)
 
